@@ -3,68 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <title>Apresentação Hugo</title>
+    <style>
+        body {
+            background-color: #EDF2F4;
+            color: #2B2D42;
+            font-size: 15px;
+        }
+
+        .texts-box-style {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #8D99AE;
+            padding: 10px;
+        }
+        
+        h2 {
+            color: #D90429;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 100;
+        }
+
+        h3 {
+            text-align: center;
+            font-weight: 500;
+        }
+
+        h5 {
+            text-align: center;
+        }
+
+        #summary {
+            line-height: 13px;
+        }
+
+        .links-indice {
+            text-decoration: none;
+            color: black;
+            font-size: 17px;
+        }
+
+        .social-media-buttons {
+            text-decoration: none;
+            color: white;
+            background-color: #2B2D42;
+            padding: 5px;
+        }
+
+        .other-links {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+
+        #observation {
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        #title-with-the-name{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight: 800;
+            color: #EF233C;
+        }
+
+        .list-elements {
+            font-size: 13px;
+        }
+
+        .profile-picture {
+            width: 300px;
+            border-radius: 75%;
+        }
+
+        .spotlight {
+            font-style: oblique;
+            font-size: 16px;
+        }
+
+    </style>
+
 </head>
 <body>
     
-    <h1>Apresentação:</h1>
+    <h1 id="title-with-the-name">Hugo Leonardo:</h1>
 
-    <h3>Indice:</h3>
+    <h2>Indice:</h2>
 
-    <ul>
-        <li><a href="#apresentacao">Sobre mim</a></li>
-        <li><a href="#foto">Foto</a></li>
-        <li><a href="#listahab">Lista de Habilidades</a></li>
-        <li><a href="#paginaweb">Página da internet preferida</a></li>
+    <ul class="texts-box-style" id="summary">
+        <li><a class ="links-indice" href="#apresentacao">Quem sou eu</a></li>
+        <li><a class="links-indice" href="#foto">Foto</a></li>
+        <li><a class="links-indice" href="#listahab">Lista de Habilidades</a></li>
+        <li><a class="links-indice" href="#paginaweb">Página da internet preferida</a></li>
     </ul>
 
-    <hr>
+    
 
-    <h3 id="apresentacao">Sobre mim:</h3>
-    <img id="foto" src="/images/hugo.jpeg" alt="Foto Hugo Leonardo" width="300px">
-    <p>>
-        <em>Me chamo</em> <strong>Hugo Leonardo Otaviano de Paula</strong><em>, sou brasileiro e moro na cidade de Angra dos Reis, Rio de Janeiro. Sou divertido até certo ponto, levando as coisas a sério quando precisam ser levadas e sabendo ter um comportamento mais tranquilo e relaxado quando necessário.
+    <h2 id="apresentacao">Quem sou eu:</h2>
+    <img class="profile-picture" id="foto" src="/images/hugo.jpeg" alt="Foto Hugo Leonardo">
+    <p class="texts-box-style">
+        <em>Me chamo</em> <strong class="spotlight">Hugo Leonardo Otaviano de Paula</strong><em>, sou brasileiro e moro na cidade de Angra dos Reis, Rio de Janeiro. Sou divertido até certo ponto, levando as coisas a sério quando precisam ser levadas e sabendo ter um comportamento mais tranquilo e relaxado quando necessário.
         </em></p>    
         
-        <p>
-            Seria interessante, de certo modo, escrever mais coisas a ponto que eu conseguisse deixar a página maior para existir uma barra e rolagem de modo que, o indice, outrora criado, fizesse algum sentido e mexesse com a página ao menos um pouco para dar um efeito de utilidade para sua criação, mas no final do dia - hora que fiz essa apresentação - a criatividade para me descrever se esvai, e fica apenas maneiras de "encher linguiça", uma espécie de Lorem Ipsum estilizado e característico(Caso você não saiba o que é <a href="https://www.lipsum.com/" target="_blank">clique aqui</a>)
+        <p class="texts-box-style">
+            Seria interessante, de certo modo, escrever mais coisas a ponto que eu conseguisse deixar a página maior para existir uma barra e rolagem de modo que, o indice, outrora criado, fizesse algum sentido e mexesse com a página ao menos um pouco para dar um efeito de utilidade para sua criação, mas no final do dia - hora que fiz essa apresentação - a criatividade para me descrever se esvai, e fica apenas maneiras de "encher linguiça", uma espécie de Lorem Ipsum estilizado e característico(Caso você não saiba o que é <a class="other-links" href="https://www.lipsum.com/" target="_blank">clique aqui</a>)
         </p>
-    <h5><a href="https://www.linkedin.com/in/hugo-leonardo-9a7435238/" target="_blank">linkedin</a></h5>
-    <h5><a href="https://github.com/hgo19/" targer="_blank">Github</a></a></h5>
+    <h5><a class="social-media-buttons" href="https://www.linkedin.com/in/hugo-leonardo-9a7435238/" target="_blank">linkedin</a>
+    <a class="social-media-buttons" href="https://github.com/hgo19/" target="_blank">Github</a></h5>
 
-    <hr>
-
-    <h3 id="listahab">Lista de habilidades:</h3>
-
-    <h4>Soft-skills</h4>
-    <ol>
-        <li>Autoliderança</li>
-        <li>Assertividade</li>
-        <li>Gestão de Tempo</li>
-    </ol><br><br>
     
-    <h4>Hard-skills</h4>
-    <ol>
-        <li>Unix e Shell</li>
-        <li>Git e GitHub</li>
-        <li>HTML</li>
-        <li>CSS</li>
-    </ol><br><br>
 
-    <h4>Habilidades curiosas:</h4>
-    <ol>
-        <li>Assobiar no escuro</li>
-        <li>Flexão de olhos fechados</li>
-        <li><strong>Correr parado</strong></li>
-        <li>Comer sem fome</li>
-        <li>Nadar fora da água</li>
-        <li><strong>Saber distinguir o que é pato e o que é galinha</strong></li>
+    <h2 id="listahab">Lista de habilidades:</h2>
+
+    <h3>Soft-skills</h3>
+    <ol class="texts-box-style">
+        <li class="list-elements">Autoliderança</li>
+        <li class="list-elements">Assertividade</li>
+        <li class="list-elements">Gestão de Tempo</li>
     </ol>
-    <p><font size="2">Em negrito destaco as habilidades que mais me orgulho e batalhei para conquista-las.</font></p>
+    
+    <h3>Hard-skills</h4>
+    <ol class="texts-box-style">
+        <li class="list-elements">Unix e Shell</li>
+        <li class="list-elements">Git e GitHub</li>
+        <li class="list-elements">HTML</li>
+        <li class="list-elements">CSS</li>
+    </ol>
 
-    <hr>
+    <h3>Habilidades curiosas:</h3>
+    <ol class="texts-box-style">
+        <li class="list-elements">Assobiar no escuro</li>
+        <li class="list-elements">Flexão de olhos fechados</li>
+        <li class="list-elements"><strong>Correr parado</strong></li>
+        <li class="list-elements">Comer sem fome</li>
+        <li class="list-elements">Nadar fora da água</li>
+        <li class="list-elements"><strong>Saber distinguir o que é pato e o que é galinha</strong></li>
+    </ol>
+    <p class="texts-box-style" id="observation"><stong>*</stong> Em negrito destaco as habilidades que mais me orgulho e batalhei para conquista-las.</p>
 
-    <h3 id="paginaweb">Página da web preferida</h3>
-    <a href="twitch.tv/" target="_blank"><strong>Esta</strong></a> é a minha página da internet preferida. Por ela vejo transmissões ao vivo e passo boa parte do meu lazer.
+    
+
+    <h2 id="paginaweb">Página da web preferida</h2>
+    <p class="texts-box-style"><a href="twitch.tv/" target="_blank"><strong>Esta</strong></a> é a minha página da internet preferida. Por ela vejo transmissões ao vivo e passo boa parte do meu lazer.</p>
 
 </body>
 </html>

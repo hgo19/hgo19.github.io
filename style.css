@@ -79,6 +79,11 @@ ol {
   margin-left: -50px;
 }
 
+.spotlight {
+  font-size: 13px;
+  font-family: monospace;
+}
+
 .other-links {
   text-decoration: none;
   color: black;

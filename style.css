@@ -29,19 +29,19 @@ ol {
 }
 
 
-.indice-list {
+.indice-list li {
   display: inline-block;
   margin: 2px;
 }
 
-.links-indice {
+.indice-list a {
   text-decoration: none;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 500;
   color: black;
 }
 
-.links-indice:hover {
+.indice-list a:hover {
   letter-spacing: 2px;
   font-weight: bold;
 }
@@ -51,7 +51,7 @@ ol {
   text-align: center;
 }
 
-#hero-title {
+h2 {
   color:#D90429;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
@@ -79,17 +79,18 @@ ol {
   margin-left: -50px;
 }
 
-.spotlight {
+p strong {
   font-size: 13px;
   font-family: monospace;
 }
 
-.other-links {
+p a {
   text-decoration: none;
   color: black;
   font-style: italic;
   font-weight: bold;
 }
+
 
 .other-links:hover {
   letter-spacing: 2px;
@@ -99,7 +100,7 @@ ol {
   margin-top: 15px;
 }
 
-.social-media-buttons{
+#buttons a {
   text-decoration: none;
   background-color: #2B2D42;
   color: #EDF2F4;
@@ -107,7 +108,7 @@ ol {
   padding: 5px;
 }
 
-.social-media-buttons:hover {
+#buttons a:hover {
   background-color: #d3dbd9;
   color: black;
 }

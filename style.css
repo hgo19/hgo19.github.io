@@ -59,14 +59,11 @@ h2 {
 }
 
 .profile {
-  display:inline-block;
-  width: 500px;
   vertical-align: middle;
 }
 
 #profile-picture {
   width: 290px;
-  float: left;
   margin-left: 30%;
   padding: 5px;
   background-color: #8D99AE;
@@ -74,7 +71,7 @@ h2 {
 }
 
 #profile-text {
-  max-width: 50%;
+  max-width: 300px;
   font-family: 'Times New Roman', Times, serif;
   text-align: justify;
   margin-left: -50px;

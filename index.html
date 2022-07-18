@@ -3,110 +3,42 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Apresentação Hugo</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <title>Portifólio: Hugo</title>
 </head>
 
 <body>
-
   <header id="header">
-    <h1>Projeto Web | Apresentação:</h1>
-    <nav class="indice-list">
-      <ul>
-        <li><a href="#apresentacao">Quem sou Eu</a> |</li>
-        <li><a href="#foto">Foto</a> |</li>
-        <li><a href="#listahab">Lista de Habilidades</a> |</li>
-        <li><a href="#paginaweb">Página da Internet</a></li>
-      </ul>
-    </nav>
+    <h1 id="hero-title">-Portifólio-</h1>
+    <ol id="navbar">
+      <li class="nav-links">Sobre mim</li> |
+      <li class="nav-links">Skills</li> |
+      <li class="nav-links">Projetos</li>
+    </ol>
   </header>
-
-
-  <main>
-    <section id="section1">
-      <header><h2>Quem sou eu:</h2></header>
-      <div class="profile">
-        <img id="profile-picture" src="/images/hugo.jpeg" alt="Foto Hugo Leonardo">
-        
-      <arcticle id="profile-text">
-          <p>
-            <em>Me chamo</em> <strong>Hugo Leonardo Otaviano de Paula</strong><em>, sou brasileiro e
-              moro
-              na cidade de Angra dos Reis, Rio de Janeiro. Sou divertido até certo ponto, levando as coisas a sério quando
-              precisam ser levadas e sabendo ter um comportamento mais tranquilo e relaxado quando necessário.
-            </em>
-          </p>
-  
-          <p>
-            Seria interessante, de certo modo, escrever mais coisas a ponto que eu conseguisse deixar a página maior para
-            existir uma barra e rolagem de modo que, o indice, outrora criado, fizesse algum sentido e mexesse com a
-            página
-            ao menos um pouco para dar um efeito de utilidade para sua criação, mas no final do dia - hora que fiz essa
-            apresentação - a criatividade para me descrever se esvai, e fica apenas maneiras de "encher linguiça", uma
-            espécie de Lorem Ipsum estilizado e característico(Caso você não saiba o que é <a class="other-links"
-              href="https://www.lipsum.com/" target="_blank">clique aqui</a>)
-          </p>
-        </arcticle>
-  
-      <div id="buttons">
-        <h5>
-          <a href="https://www.linkedin.com/in/hugo-leonardo-9a7435238/"
-            target="_blank">Linkedin</a>
-          <a href="https://github.com/hgo19/" target="_blank">Github</a>
-        </h5>
-      </div>
-      </div>
+  <main id="main-content">
+    <section>
+      <img id="profile-picture" src="images/hugo.jpeg" alt="hugoprofilepicture">
     </section>
-  
-    <section id="section2">
-      <header><h2>Lista de habilidades:</h2></header>
-  
-      <arcticle class="lists-former">
-        <h3>Soft-skills</h3>
-        <ol>
-          <li class="impar">Autoliderança</li>
-          <li>Assertividade</li>
-          <li class="impar">Gestão de Tempo</li>
-          <li>Comunicação</li>
-          <li class="impar">Ciração de PDI</li>
-        </ol>
-      </arcticle>
-  
-      <arcticle class="lists-former">
-        <h3>Hard-skills</h4>
-          <ol>
-            <li class="impar">Unix e Shell</li>
-            <li>Git e GitHub</li>
-            <li class="impar">HTML</li>
-            <li>CSS</li>
-            <li class="impar">JavaScript</li>
-          </ol>
-      </arcticle>
-  
-      <arcticle class="lists-former">
-        <h3>Habilidades curiosas:</h3>
-        <ol>
-          <li class="impar">Assobiar no escuro</li>
-          <li>Flexão de olhos fechados</li>
-          <li class="impar"><strong>Correr parado</strong></li>
-          <li>Comer sem fome</li>
-          <li class="impar"><strong>Nadar fora da água</strong></li>
-        </ol>
-      </arcticle>
-  
-      <p id="observation">
-        <stong>*</stong> Em negrito destaco as habilidades que mais me orgulho e batalhei para conquista-las.
+    <section>
+      <p id="description">
+        Me chamo Hugo Leonardo e sou um estudante de Desenvolvimento Web. Venho de uma transição de carreira 
+
       </p>
-  
     </section>
   </main>
-  
-  <footer id="section3">
-    <h2>Página da Internet</h2>
-    <p class="texts-box-style"><a class="other-links" href="twitch.tv/" target="_blank"><strong>Esta</strong></a> é
-      a minha página da internet preferida. Por ela vejo transmissões ao vivo e passo boa parte do meu lazer.</p>
+  <footer id="socials">
+    <a href="https://github.com/hgo19" target="_blank"><img class="social" src="images/github.svg" alt="github"></a>
+    <a href="https://github.com/hgo19" target="_blank"><img class="social" src="images/instagram.svg"
+        alt="instagram"></a>
+    <a href="https://github.com/hgo19" target="_blank"><img class="social" src="images/linkedin.svg" alt="linkedin"></a>
   </footer>
-
+  <script src="script.js"></script>
 </body>
 
 </html>

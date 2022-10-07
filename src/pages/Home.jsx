@@ -1,10 +1,15 @@
 import React from 'react'
-import manWorking from '../images/man-computer.png';
+
+import Apresentation from '../components/Apresentation';
+import Skills from '../components/Skills';
+import About from '../components/About';
 
 export default function Home() {
   return (
-    <div>
-      <img src={ manWorking } alt='man working' />
-    </div>
+    <main>
+      <Apresentation />
+      <Skills />
+      <About />
+    </main>
   )
 }

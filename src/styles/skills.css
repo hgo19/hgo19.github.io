@@ -1,0 +1,20 @@
+.skills-container {
+  align-content: center;
+  align-items: center;
+  background-color:  var(--section-color);
+  display: flex;
+  gap: 10px;
+  height: 150px;
+  justify-content: center;
+}
+
+.skill-box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skills-icons {
+  width: 30px;
+}

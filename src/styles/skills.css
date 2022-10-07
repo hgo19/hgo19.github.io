@@ -18,3 +18,11 @@
 .skills-icons {
   width: 30px;
 }
+
+@media ( max-width : 400px ) {
+
+  .skills-icons {
+    width: 20px;
+  }
+
+}

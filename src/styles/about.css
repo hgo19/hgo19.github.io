@@ -12,5 +12,14 @@
 .about-text {
   height: auto;
   margin-top: 1%;
-  width: 900px;
+  text-align: justify;
+  width: 50%;
+}
+
+@media ( max-width : 900px ) {
+
+  .about-text {
+    width: 80%;
+  }
+
 }

@@ -3,9 +3,9 @@ import React from 'react'
 import '../styles/apresentation.css';
 
 import manWorking from '../images/man-computer.svg';
+import mobileImage from '../images/mobileImage.svg';
 import linkedinIcon from '../images/logos/linkedinIcon.svg';
 import githubIcon from '../images/logos/githubIcon.svg';
-import { Link } from 'react-router-dom';
 
 export default function Apresentation() {
   return (
@@ -13,13 +13,14 @@ export default function Apresentation() {
       <article className='apresentation-text'>
         <h1>{`<Hello World />`}</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div className="mobile-image-box"><img src={mobileImage} alt="mobile vector" className="mobile-image"/></div>
         <div className="apresentation-logos">
-            <Link to="https://www.linkedin.com/in/hugo-leop/" target={"_blank"} rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/hugo-leop/" target={"_blank"} rel="noopener noreferrer">
               <img src={linkedinIcon} alt="Linkedin"/> <span>Linkedin</span>
-            </Link>
-          <Link to="https://github.com/hgo19" target={"_blank"} rel="noopener noreferrer">
-            <img src={githubIcon} alt="Linkedin"/> <span>GitHub</span>
-          </Link>
+            </a>
+          <a href="https://github.com/hgo19" target={"_blank"} rel="noopener noreferrer">
+            <img src={githubIcon} alt="aedin"/> <span>GitHub</span>
+          </a>
         </div>
       </article>
       <img src={manWorking} alt="Man Working Draw" className="apresentation-img"/>

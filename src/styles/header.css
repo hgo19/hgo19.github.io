@@ -27,3 +27,11 @@ a {
 .navbar-links a:hover {
   opacity: 0.7;
 }
+
+@media ( max-width : 900px ) {
+
+  .navbar-links {
+    justify-content: center;
+  }
+
+}

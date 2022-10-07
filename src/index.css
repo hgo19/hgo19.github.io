@@ -8,6 +8,7 @@
 
 body {
   background-color: var(--background-color);
+  /* background-color: rgb(17, 17, 17); */
   font-family: 'Montserrat', sans-serif;
 }
 

@@ -2,6 +2,8 @@ import React from 'react'
 
 import '../styles/apresentation.css';
 
+import subTitle from '../texts/subTitle';
+
 import manWorking from '../images/man-computer.svg';
 import mobileImage from '../images/mobileImage.svg';
 import linkedinIcon from '../images/logos/linkedinIcon.svg';
@@ -12,7 +14,7 @@ export default function Apresentation() {
     <section className="apresentation-container">
       <article className='apresentation-text'>
         <h1>{`<Hello World />`}</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>{subTitle}</p>
         <div className="mobile-image-box"><img src={mobileImage} alt="mobile vector" className="mobile-image"/></div>
         <div className="apresentation-logos">
             <a href="https://www.linkedin.com/in/hugo-leop/" target={"_blank"} rel="noopener noreferrer">

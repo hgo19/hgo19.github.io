@@ -1,6 +1,7 @@
 .apresentation-container {
   display: flex;
   justify-content: space-around;
+  margin-left: 5%;
   margin-top: 2%;
 }
 
@@ -41,7 +42,7 @@
 }
 
 .apresentation-img {
-  width: 700px;
+  width: 950px;
 }
 
 
@@ -70,4 +71,16 @@
     justify-content: center;
     margin-top: 20%;
   }
+}
+
+@media ( max-width : 1150px ) {
+
+  .apresentation-container {
+    margin-left: 5%;
+  }
+
+  .apresentation-img {
+    width: 700px;
+  }
+
 }

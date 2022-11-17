@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../styles/about.css';
 
-import { sobreMimPOne, sobreMimPTwo } from '../texts/aboutMe';
+import { sobreMimPOne, sobreMimPTwo } from '../files/texts/aboutMe';
 
 export default function About() {
   return (

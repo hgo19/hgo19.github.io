@@ -2,12 +2,12 @@ import React from 'react';
 
 import '../styles/apresentation.css';
 
-import subTitle from '../texts/subTitle';
+import subTitle from '../files/texts/subTitle';
 
-import manWorking from '../images/man-computer.svg';
-import mobileImage from '../images/mobileImage.svg';
-import linkedinIcon from '../images/logos/linkedinIcon.svg';
-import githubIcon from '../images/logos/githubIcon.svg';
+import manWorking from '../files/images/man-computer.svg';
+import mobileImage from '../files/images/mobileImage.svg';
+import linkedinIcon from '../files/images/logos/linkedinIcon.svg';
+import githubIcon from '../files/images/logos/githubIcon.svg';
 
 export default function Apresentation() {
   return (

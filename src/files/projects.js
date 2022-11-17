@@ -1,6 +1,6 @@
-import shoppingCart from '../images/projectsImages/shoppingCart.jpeg';
-import trybeTunes from '../images/projectsImages/trybeTunes.jpeg';
-import trybeWallet from '../images/projectsImages/trybeWallet.jpeg';
+import shoppingCart from './images/projectsImages/shoppingCart.jpeg';
+import trybeTunes from './images/projectsImages/trybeTunes.jpeg';
+import trybeWallet from './images/projectsImages/trybeWallet.jpeg';
 
 
 const projects = [

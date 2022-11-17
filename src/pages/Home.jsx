@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import Apresentation from '../components/Apresentation';
 import Skills from '../components/Skills';
@@ -11,5 +11,5 @@ export default function Home() {
       <Skills />
       <About />
     </main>
-  )
+  );
 }

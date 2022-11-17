@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import '../styles/skills.css';
 
@@ -12,25 +12,25 @@ export default function Skills() {
   return (
     <section className="skills-container">
       <div className="skill-box">
-        <img src={htmlIcon} alt="HTML Skill" className="skills-icons"/>
+        <img src={ htmlIcon } alt="HTML Skill" className="skills-icons" />
         <p>HTML</p>
       </div>
       <div className="skill-box">
-        <img src={cssIcon} alt="HTML Skill" className="skills-icons"/>
+        <img src={ cssIcon } alt="HTML Skill" className="skills-icons" />
         <p>CSS</p>
       </div>
       <div className="skill-box">
-        <img src={jsIcon} alt="HTML Skill" className="skills-icons"/>
+        <img src={ jsIcon } alt="HTML Skill" className="skills-icons" />
         <p>JavaScript</p>
       </div>
       <div className="skill-box">
-        <img src={reactIcon} alt="HTML Skill" className="skills-icons"/>
+        <img src={ reactIcon } alt="HTML Skill" className="skills-icons" />
         <p>React</p>
       </div>
       <div className="skill-box">
-        <img src={reduxIcon} alt="HTML Skill" className="skills-icons"/>
+        <img src={ reduxIcon } alt="HTML Skill" className="skills-icons" />
         <p>Redux</p>
       </div>
     </section>
-  )
+  );
 }

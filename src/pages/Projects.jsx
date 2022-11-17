@@ -1,10 +1,11 @@
-import React from 'react'
-import ProjectsList from '../components/ProjectsList'
+import React from 'react';
+import FrontEndProjects from '../components/frontEndProjects';
+
 
 export default function Projects() {
   return (
     <main>
-      <ProjectsList />
+      <FrontEndProjects />
     </main>
-  )
+  );
 }

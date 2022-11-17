@@ -1,0 +1,25 @@
+.projects-container {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.projects-cards {
+  background-color: var(--section-color);
+  padding: 5px;
+  width: 300px;
+}
+
+.projects-cards img {
+  margin: 5%;
+  width: 90%;
+}
+
+.projects-cards a {
+  color: black;
+  font-weight: 700;
+}
+
+.projects-cards:hover {
+  opacity: 0.9;
+}

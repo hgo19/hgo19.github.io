@@ -1,5 +1,13 @@
 import React from 'react';
 
+import { 
+  ApresentationContainerStyled,
+  ApresentationTextsStyled,
+  MobileImageBoxStyled,
+  MobileImageStyled,
+  ApresentationLogosStyled,
+  ApresentationImgStyled } from './style';
+
 import subTitle from '../../assets/texts/subTitle';
 
 import manWorking from '../../assets/images/man-computer.svg';
@@ -9,14 +17,14 @@ import githubIcon from '../../assets/images/logos/githubIcon.svg';
 
 export default function Apresentation() {
   return (
-    <section className="apresentation-container">
-      <article className="apresentation-text">
+    <ApresentationContainerStyled>
+      <ApresentationTextsStyled>
         <h1>{'<Hello World />'}</h1>
         <p>{subTitle}</p>
-        <div className="mobile-image-box">
-          <img src={ mobileImage } alt="mobile vector" className="mobile-image" />
-        </div>
-        <div className="apresentation-logos">
+        <MobileImageBoxStyled>
+          <MobileImageStyled src={ mobileImage } alt="mobile vector"/>
+        </MobileImageBoxStyled>
+        <ApresentationLogosStyled>
           <a href="https://www.linkedin.com/in/hugo-leop/" target="_blank" rel="noopener noreferrer">
             <img src={ linkedinIcon } alt="Linkedin" />
             {' '}
@@ -27,9 +35,9 @@ export default function Apresentation() {
             {' '}
             <span>GitHub</span>
           </a>
-        </div>
-      </article>
-      <img src={ manWorking } alt="Man Working Draw" className="apresentation-img" />
-    </section>
+        </ApresentationLogosStyled>
+      </ApresentationTextsStyled>
+      <ApresentationImgStyled src={ manWorking } alt="Man Working Draw"/>
+    </ApresentationContainerStyled>
   );
 }

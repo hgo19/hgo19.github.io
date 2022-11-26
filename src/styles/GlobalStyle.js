@@ -10,9 +10,12 @@ const GlobalStyle = createGlobalStyle`
 }
 
 body {
-  background-color: var(--background-color);
-  // background-color: rgb(17, 17, 17);
+  background-color: ${(theme) => theme.backgroundColor};
   font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 h1 {

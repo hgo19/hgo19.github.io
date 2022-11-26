@@ -1,33 +1,36 @@
 import React, { useState } from 'react';
 
 import { 
-  HeaderContainer,
-  NavBarContainer,
-  HamburguerMenuButtons,
-  HamburgerMenu,
-  UlLinks,
-  NavLinks } from '../styles/styles';
+  HeaderStyled,
+  HamburguerContainerStyled,
+  HamburguerImgStyled,
+  UlStyled,
+  NavLinksStyled } from '../styles/styles';
 import menuHamburguer from '../files/images/menuIcon.svg';
 
 export default function Header() {
-  const [isToggled, setToggle] = useState(false);
+  const [show, setMenu] = useState(false);
 
-  const toggle = () => {
-    setToggle(!isToggled);
+  const toggleMenu = () => {
+    setMenu(!show);
   };
 
   return (
-    <HeaderContainer>
-      <NavBarContainer>
-        <HamburguerMenuButtons type="button" onClick={toggle}>
-          <HamburgerMenu src={menuHamburguer} alt="menu hamburguer" />
-        </HamburguerMenuButtons>
-        <UlLinks>
-          <NavLinks to="/"><li>Home</li></NavLinks>
-          <NavLinks to="/projects"><li>Projects</li></NavLinks>
-          <NavLinks to="/contact"><li>Contact</li></NavLinks>
-        </UlLinks>
-      </NavBarContainer>
-    </HeaderContainer>
+    <HeaderStyled>
+        <HamburguerContainerStyled type="button" onClick={toggleMenu}>
+          <HamburguerImgStyled src={menuHamburguer} alt="menu hamburguer" />
+        </HamburguerContainerStyled>
+        <UlStyled show={show} >
+          <NavLinksStyled to="/">
+            <li>Inicio</li>
+          </NavLinksStyled>
+          <NavLinksStyled to="/projects">
+            <li>Projetos</li>
+          </NavLinksStyled>
+          <NavLinksStyled to="/contact">
+            <li>Entre em Contato</li>
+          </NavLinksStyled>
+        </UlStyled>
+    </HeaderStyled>
   );
 }

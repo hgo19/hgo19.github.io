@@ -2,11 +2,11 @@ import React from 'react';
 
 import '../assets/skills.css';
 
-import htmlIcon from '../files/images/logos/htmlIcon.svg';
-import cssIcon from '../files/images/logos/cssIcon.svg';
-import jsIcon from '../files/images/logos/jsIcon.svg';
-import reactIcon from '../files/images/logos/reactIcon.svg';
-import reduxIcon from '../files/images/logos/reduxIcon.svg';
+import htmlIcon from '../assets/images/logos/htmlIcon.svg';
+import cssIcon from '../assets/images/logos/cssIcon.svg';
+import jsIcon from '../assets/images/logos/jsIcon.svg';
+import reactIcon from '../assets/images/logos/reactIcon.svg';
+import reduxIcon from '../assets/images/logos/reduxIcon.svg';
 
 export default function Skills() {
   return (

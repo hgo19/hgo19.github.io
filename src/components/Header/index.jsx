@@ -6,7 +6,7 @@ import {
   HamburguerImgStyled,
   UlStyled,
   NavLinksStyled } from './styles';
-import menuHamburguer from '../../files/images/menuIcon.svg';
+import menuHamburguer from '../../assets/images/menuIcon.svg';
 
 export default function Header() {
   const [show, setMenu] = useState(false);

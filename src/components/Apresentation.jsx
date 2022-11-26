@@ -4,10 +4,10 @@ import '../assets/apresentation.css';
 
 import subTitle from '../files/texts/subTitle';
 
-import manWorking from '../files/images/man-computer.svg';
-import mobileImage from '../files/images/mobileImage.svg';
-import linkedinIcon from '../files/images/logos/linkedinIcon.svg';
-import githubIcon from '../files/images/logos/githubIcon.svg';
+import manWorking from '../assets/images/man-computer.svg';
+import mobileImage from '../assets/images/mobileImage.svg';
+import linkedinIcon from '../assets/images/logos/linkedinIcon.svg';
+import githubIcon from '../assets/images/logos/githubIcon.svg';
 
 export default function Apresentation() {
   return (

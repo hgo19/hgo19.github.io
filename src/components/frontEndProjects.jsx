@@ -1,6 +1,6 @@
 import React from 'react';
 
-import projects from '../files/projects';
+import projects from '../assets/projects';
 import '../assets/projects.css';
 
 export default function FrontEndProjects() {

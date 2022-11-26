@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { ThemeProvider } from 'styled-components';
 import { BrowserRouter } from 'react-router-dom';
-import GlobalStyle from './styles/GlobalStyle';
+import GlobalStyle from './assets/styles/GlobalStyle';
 import App from './App';
 
 const theme = {

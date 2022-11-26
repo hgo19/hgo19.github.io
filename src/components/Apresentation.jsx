@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../assets/apresentation.css';
 
-import subTitle from '../files/texts/subTitle';
+import subTitle from '../assets/texts/subTitle';
 
 import manWorking from '../assets/images/man-computer.svg';
 import mobileImage from '../assets/images/mobileImage.svg';

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import projects from '../files/projects';
-import '../styles/projects.css';
+import '../assets/projects.css';
 
 export default function FrontEndProjects() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/apresentation.css';
+import '../assets/apresentation.css';
 
 import subTitle from '../files/texts/subTitle';
 

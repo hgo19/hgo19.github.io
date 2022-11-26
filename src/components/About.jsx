@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/about.css';
+import '../assets/about.css';
 
 import { sobreMimPOne, sobreMimPTwo } from '../files/texts/aboutMe';
 

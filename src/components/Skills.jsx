@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/skills.css';
+import '../assets/skills.css';
 
 import htmlIcon from '../files/images/logos/htmlIcon.svg';
 import cssIcon from '../files/images/logos/cssIcon.svg';

@@ -1,7 +1,7 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 
-import '../styles/contact.css';
+import '../assets/contact.css';
 
 export default function ContactForm() {
   const sendEmail = (e) => {

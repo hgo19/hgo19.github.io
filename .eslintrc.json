@@ -3,7 +3,11 @@
         "browser": true,
         "es2021": true
     },
-    "extends": ["trybe-frontend"],
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb",
+        "prettier"
+    ],
     "overrides": [
     ],
     "parserOptions": {
@@ -11,12 +15,10 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react",
-        "react-hooks"
+        "react"
     ],
     "rules": {
-        "react-hooks/rules-of-hooks": "error", 
-        "react-hooks/exhaustive-deps": "warn",
-        "react/jsx-no-constructed-context-values": 0
+        "no-alert": "off",
+        "jsx-a11y/label-has-associated-control": "off"
     }
 }

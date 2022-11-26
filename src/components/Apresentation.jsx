@@ -15,7 +15,9 @@ export default function Apresentation() {
       <article className="apresentation-text">
         <h1>{'<Hello World />'}</h1>
         <p>{subTitle}</p>
-        <div className="mobile-image-box"><img src={ mobileImage } alt="mobile vector" className="mobile-image" /></div>
+        <div className="mobile-image-box">
+          <img src={ mobileImage } alt="mobile vector" className="mobile-image" />
+        </div>
         <div className="apresentation-logos">
           <a href="https://www.linkedin.com/in/hugo-leop/" target="_blank" rel="noopener noreferrer">
             <img src={ linkedinIcon } alt="Linkedin" />

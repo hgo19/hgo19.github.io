@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 
-import '../styles/header.css';
+import { 
+  HeaderContainer,
+  NavBarContainer,
+  HamburguerMenuButtons,
+  HamburgerMenu,
+  UlLinks,
+  NavLinks } from '../styles/styles';
 import menuHamburguer from '../files/images/menuIcon.svg';
 
 export default function Header() {
@@ -12,17 +17,17 @@ export default function Header() {
   };
 
   return (
-    <header className="header-container">
-      <nav className="navbar-container">
-        <div onClick={toggle} className="hamburguer-menu-container">
-          <img className="hamburger-menu" src={menuHamburguer} alt="menu hamburguer" />
-        </div>
-        <ul className={isToggled ? 'navbar-open' : 'navbar-links'}>
-          <Link to="/"><li>Home</li></Link>
-          <Link to="/projects"><li>Projects</li></Link>
-          <Link to="/contact"><li>Contact</li></Link>
-        </ul>
-      </nav>
-    </header>
+    <HeaderContainer>
+      <NavBarContainer>
+        <HamburguerMenuButtons type="button" onClick={toggle}>
+          <HamburgerMenu src={menuHamburguer} alt="menu hamburguer" />
+        </HamburguerMenuButtons>
+        <UlLinks>
+          <NavLinks to="/"><li>Home</li></NavLinks>
+          <NavLinks to="/projects"><li>Projects</li></NavLinks>
+          <NavLinks to="/contact"><li>Contact</li></NavLinks>
+        </UlLinks>
+      </NavBarContainer>
+    </HeaderContainer>
   );
 }

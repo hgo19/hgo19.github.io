@@ -1,10 +1,11 @@
 import React from 'react';
 import ContactForm from '../components/ContactForm';
+import MainStyled from './styles';
 
 export default function Contact() {
   return (
-    <div>
+    <MainStyled>
       <ContactForm />
-    </div>
+    </MainStyled>
   );
 }

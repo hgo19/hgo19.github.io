@@ -25,10 +25,10 @@ export default function FrontEndProjects() {
           <p>
             Repositório:
             {' '}
-            <LinkStyled href={repositorio}>Aqui</LinkStyled>
+            <LinkStyled href={repositorio} target="_blank">Aqui</LinkStyled>
           </p>
           <p>
-            <LinkStyled href={url}>
+            <LinkStyled href={url} target="_blank">
               Visite a aplicação clicando aqui
             </LinkStyled>
           </p>

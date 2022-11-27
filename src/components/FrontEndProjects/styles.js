@@ -23,5 +23,4 @@ export const LinkStyled = styled.a`
 
   :hover {
     opacity: 0.7;
-  }
-`;
+  }`;

@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.c6b59c6d.css",
-    "main.js": "/static/js/main.e5f4642b.js",
+    "main.js": "/static/js/main.289f58e4.js",
     "static/media/shoppingCart.jpeg": "/static/media/shoppingCart.b051bcbab4fd79ec1f2f.jpeg",
     "static/media/trybeTunes.jpeg": "/static/media/trybeTunes.18036b9573d24cc9129e.jpeg",
     "static/media/trybeWallet.jpeg": "/static/media/trybeWallet.ab5e78642adb9cecc3f6.jpeg",
     "static/media/mobileImage.svg": "/static/media/mobileImage.8d9a8f34aea109ae94d39cc46ee3ef0c.svg",
     "static/media/man-computer.svg": "/static/media/man-computer.3279863c957c7cbba2034bde5bdeb6a2.svg",
+    "static/media/mysqlIcon.svg": "/static/media/mysqlIcon.3737d1ef555157e6069bbc4a693b96dc.svg",
     "static/media/reactIcon.svg": "/static/media/reactIcon.d2142605abd940adfe41c4f035ca1670.svg",
+    "static/media/dockerIcon.svg": "/static/media/dockerIcon.cc38401897826c1de4903e779a304abd.svg",
     "static/media/reduxIcon.svg": "/static/media/reduxIcon.9dd5b17e93efa9410e2b996822cd4ae0.svg",
     "static/media/githubIcon.svg": "/static/media/githubIcon.e21209f267368a1bd7975dab65fcd209.svg",
     "static/media/linkedinIcon.svg": "/static/media/linkedinIcon.189a288e29a6d95aba8128714d961ff7.svg",
+    "static/media/nodejsIcon.svg": "/static/media/nodejsIcon.27db60dc0e6c3debcb0b6ed6ae53a9cf.svg",
     "static/media/jsIcon.svg": "/static/media/jsIcon.6e5aebc171a0e070c3849b3dac26ed37.svg",
     "index.html": "/index.html",
     "static/media/cssIcon.svg": "/static/media/cssIcon.f2163226131819de387697ce0ca3390e.svg",
     "static/media/htmlIcon.svg": "/static/media/htmlIcon.bb2ee8832713c4cee3a5335c149e5b14.svg",
     "static/media/menuIcon.svg": "/static/media/menuIcon.cc5ce903a98dddc1e80bc48498a15dde.svg",
-    "main.c6b59c6d.css.map": "/static/css/main.c6b59c6d.css.map",
-    "main.e5f4642b.js.map": "/static/js/main.e5f4642b.js.map"
+    "main.289f58e4.js.map": "/static/js/main.289f58e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6b59c6d.css",
-    "static/js/main.e5f4642b.js"
+    "static/js/main.289f58e4.js"
   ]
 }

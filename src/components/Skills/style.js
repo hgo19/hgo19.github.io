@@ -4,11 +4,17 @@ import styled from "styled-components";
 export const SkillsContainerStyled = styled.section`
   align-content: center;
   align-items: center;
-  background-color:  var(--section-color);
+  background-color:  ${({theme}) => theme.sectionColor};
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   height: 150px;
   justify-content: center;
+
+  @media (  max-width : 900px ) {
+    height: ${({show}) => show ? 'auto' : '150px'};
+    padding: 20px;
+  };
 `;
 
 export const SkillBoxStyled = styled.div`

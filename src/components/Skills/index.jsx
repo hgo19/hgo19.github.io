@@ -33,7 +33,7 @@ export default function Skills() {
 
 
   return (
-    <SkillsContainerStyled>
+    <SkillsContainerStyled show={show}>
       <SkillBoxStyled>
         <SkillIconStyled src={ jsIcon } alt="JavaScript Skill" />
         <p>JavaScript</p>

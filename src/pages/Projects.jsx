@@ -1,11 +1,13 @@
 import React from 'react';
-import FrontEndProjects from '../components/frontEndProjects';
 
+import MainStyled from './styles';
+
+import FrontEndProjects from '../components/frontEndProjects';
 
 export default function Projects() {
   return (
-    <main>
+    <MainStyled>
       <FrontEndProjects />
-    </main>
+    </MainStyled>
   );
 }

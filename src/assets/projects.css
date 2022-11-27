@@ -1,4 +1,4 @@
-.projects-container {
+/* .projects-container {
   display: flex;
   gap: 5px;
   justify-content: center;
@@ -8,17 +8,17 @@
   background-color: var(--section-color);
   padding: 5px;
   width: 300px;
-}
+} */
 
-.projects-cards img {
+/* .projects-cards img {
   margin: 5%;
   width: 90%;
 }
 
 .projects-cards a {
-  color: black;
+  color: 
   font-weight: 700;
-}
+} */
 
 .projects-cards:hover {
   opacity: 0.9;

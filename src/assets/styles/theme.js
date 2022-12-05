@@ -4,6 +4,7 @@ export const lightTheme = {
   headerColor: '#2c6d7d',
   titleColor: '#47b3cd',
   textColor: '#000000',
+  darkMode: 'off',
 };
 
 export const darkTheme = {
@@ -12,4 +13,5 @@ export const darkTheme = {
   headerColor: '#193d48',
   titleColor: '#9ed0de',
   textColor: '#f7f7f7',
+  darkMode: 'on',
 };

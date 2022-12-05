@@ -91,6 +91,7 @@ export const ApresentationLogosStyled = styled.div`
 
 export const ApresentationImgStyled = styled.img`
   width: 950px;
+  opacity: ${({theme}) => theme.darkMode === 'on' ? '0.7' : '1'};
 
   @media ( max-width : 1150px ) {
     width: 700px;

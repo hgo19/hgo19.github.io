@@ -4,7 +4,6 @@ import {
   SkillsContainerStyled,
   SkillBoxStyled,
   SkillIconStyled,
-  MySQLStyled,
   HidenSKills,
   ShowMoreStyled } from './style';
 
@@ -14,7 +13,6 @@ import jsIcon from '../../assets/images/logos/jsIcon.svg';
 import reactIcon from '../../assets/images/logos/reactIcon.svg';
 import reduxIcon from '../../assets/images/logos/reduxIcon.svg';
 import dockerIcon from '../../assets/images/logos/dockerIcon.svg';
-import mysqlIcon from '../../assets/images/logos/mysqlIcon.svg';
 import nodejsIcon from '../../assets/images/logos/nodejsIcon.svg';
 
 export default function Skills() {
@@ -62,10 +60,6 @@ export default function Skills() {
         <SkillBoxStyled>
           <SkillIconStyled src={ cssIcon } alt="CSS Skill" />
           <p>CSS</p>
-        </SkillBoxStyled>
-        <SkillBoxStyled>
-          <MySQLStyled src={ mysqlIcon } alt="MySQL Skill"/>
-          <p>MySQL</p>
         </SkillBoxStyled>
       </HidenSKills>
       <ShowMoreStyled

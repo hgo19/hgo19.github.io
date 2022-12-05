@@ -10,6 +10,7 @@ export const SkillsContainerStyled = styled.section`
   gap: 10px;
   height: 150px;
   justify-content: center;
+  margin-bottom: 5rem;
 
   @media (  max-width : 900px ) {
     height: ${({show}) => show ? 'auto' : '150px'};
@@ -30,13 +31,6 @@ export const SkillIconStyled = styled.img`
   @media ( max-width : 400px ) {
     width: 20px;
   }
-`;
-
-export const MySQLStyled = styled.img`
-  margin-top: -7px;
-  width: 65px;
-  filter: invert(0%) sepia(100%) saturate(90%) 
-    hue-rotate(216deg) brightness(10%) contrast(100%);
 `;
 
 export const HidenSKills = styled.div`

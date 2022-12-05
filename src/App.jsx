@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
+
 import { Route, Switch } from 'react-router-dom';
+
 import { ThemeProvider } from 'styled-components';
-import { lightTheme } from './assets/styles/theme';
+import { darkTheme, lightTheme } from './assets/styles/theme';
+
+import PortifolioContext from './context/PortifolioContext';
 
 import Home from './pages/Home';
 import Contact from './pages/Contact';
@@ -10,8 +14,10 @@ import Projects from './pages/Projects';
 import Header from './components/Header';
 
 function App() {
+const {theme} = useContext(PortifolioContext);
+
   return (
-    <ThemeProvider theme={lightTheme}>
+    <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <Header />
       <Switch>
         <Route exact path="/" component={ Home } />

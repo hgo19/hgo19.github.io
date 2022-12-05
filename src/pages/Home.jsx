@@ -12,8 +12,8 @@ export default function Home() {
     <>
       <MainStyled>
         <Apresentation />
-        <Skills />
-        <About />
+        <Skills id="s-skills" />
+        <About id="s-about" />
       </MainStyled>
       <Footer />
     </>

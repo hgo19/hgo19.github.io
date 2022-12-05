@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 export const HeaderStyled = styled.header`
   background-color: ${({theme}) => theme.headerColor};
   display: flex;
-  height: 50px;
+  height: 70px;
   justify-content: flex-end;
-  margin: 0;
-  z-index: 9999;
-  width: 100%;
+  position: fixed;
   top: 0;
+  width: 100%;
+  z-index: 9999;
 
   @media ( max-width  : 900px) {
     position: fixed;
@@ -40,11 +40,11 @@ export const HamburguerImgStyled = styled.img`
 export const UlStyled = styled.ul`
   align-self: center;
   display: flex;
-  font-size: 1rem;
-  gap: 15px;
+  font-size: 1.3rem;
+  gap: 1.4rem;
   justify-content: center;
   list-style: none;
-  margin: 0 1% 0 0;
+  margin: 0 3% 0 0;
   overflow: hidden;
 
 
@@ -76,6 +76,7 @@ export const UlStyled = styled.ul`
 
 export const NavLinksStyled = styled(Link)`
   color: #fff;
+  font-weight: 200;
   text-decoration: none;
 
   :hover {

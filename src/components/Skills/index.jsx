@@ -41,14 +41,14 @@ export default function Skills() {
         <p>React</p>
       </SkillBoxStyled>
       <SkillBoxStyled>
-        <SkillIconStyled src={ dockerIcon } alt="Docker Skill"/>
-        <p>Docker</p>
-      </SkillBoxStyled>
-      <SkillBoxStyled>
         <SkillIconStyled src={ nodejsIcon } alt="NodeJS Skill"/>
         <p>NodeJS</p>
       </SkillBoxStyled>
       <HidenSKills show={show}>
+        <SkillBoxStyled>
+          <SkillIconStyled src={ dockerIcon } alt="Docker Skill"/>
+          <p>Docker</p>
+        </SkillBoxStyled>
         <SkillBoxStyled>
           <SkillIconStyled src={ reduxIcon } alt="Redux Skill"/>
           <p>Redux</p>

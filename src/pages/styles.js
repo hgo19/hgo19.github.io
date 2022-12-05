@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 
 const MainStyled = styled.main`
+  margin-top: 5%;
   padding-bottom: 5rem;
   
   @media (max-width : 900px) {

@@ -34,12 +34,21 @@ export const SkillIconStyled = styled.img`
 `;
 
 export const HidenSKills = styled.div`
-  display: ${({show}) => show ? 'flex' : 'none'};
+  display: flex;
   gap: 10px;
+
+  @media ( max-width : 600px ) {
+    display: ${({show}) => show ? 'flex' : 'none'};
+  }
 `;
 
 export const ShowMoreStyled = styled.button`
+  display: none;
   background-color: transparent;
   border: none;
   cursor: pointer;
+
+  @media ( max-width : 600px ) {
+    display: block;
+  }
 `

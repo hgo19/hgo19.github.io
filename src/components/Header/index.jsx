@@ -30,7 +30,7 @@ export default function Header() {
             <li>Projetos</li>
           </NavLinksStyled>
           <NavLinksStyled to="/contato" onClick={toggleMenu}>
-            <li>Entre em Contato</li>
+            <li>Contato</li>
           </NavLinksStyled>
         </UlStyled>
     </HeaderStyled>

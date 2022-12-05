@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.js": "/static/js/main.7f3bd9bb.js",
+    "main.js": "/static/js/main.e71f6712.js",
     "static/media/shoppingCart.jpeg": "/static/media/shoppingCart.b051bcbab4fd79ec1f2f.jpeg",
     "static/media/trybeTunes.jpeg": "/static/media/trybeTunes.18036b9573d24cc9129e.jpeg",
     "static/media/trybeWallet.jpeg": "/static/media/trybeWallet.ab5e78642adb9cecc3f6.jpeg",
     "static/media/mobileImage.svg": "/static/media/mobileImage.8d9a8f34aea109ae94d39cc46ee3ef0c.svg",
     "static/media/man-computer.svg": "/static/media/man-computer.3279863c957c7cbba2034bde5bdeb6a2.svg",
-    "static/media/mysqlIcon.svg": "/static/media/mysqlIcon.3737d1ef555157e6069bbc4a693b96dc.svg",
     "static/media/reactIcon.svg": "/static/media/reactIcon.d2142605abd940adfe41c4f035ca1670.svg",
     "static/media/dockerIcon.svg": "/static/media/dockerIcon.cc38401897826c1de4903e779a304abd.svg",
     "static/media/reduxIcon.svg": "/static/media/reduxIcon.9dd5b17e93efa9410e2b996822cd4ae0.svg",
@@ -18,9 +17,9 @@
     "static/media/cssIcon.svg": "/static/media/cssIcon.f2163226131819de387697ce0ca3390e.svg",
     "static/media/htmlIcon.svg": "/static/media/htmlIcon.bb2ee8832713c4cee3a5335c149e5b14.svg",
     "static/media/menuIcon.svg": "/static/media/menuIcon.cc5ce903a98dddc1e80bc48498a15dde.svg",
-    "main.7f3bd9bb.js.map": "/static/js/main.7f3bd9bb.js.map"
+    "main.e71f6712.js.map": "/static/js/main.e71f6712.js.map"
   },
   "entrypoints": [
-    "static/js/main.7f3bd9bb.js"
+    "static/js/main.e71f6712.js"
   ]
 }

@@ -5,13 +5,17 @@ import MainStyled from './styles';
 import Apresentation from '../components/Apresentation';
 import Skills from '../components/Skills';
 import About from '../components/About';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
-    <MainStyled>
-      <Apresentation />
-      <Skills />
-      <About />
-    </MainStyled>
+    <>
+      <MainStyled>
+        <Apresentation />
+        <Skills />
+        <About />
+      </MainStyled>
+      <Footer />
+    </>
   );
 }

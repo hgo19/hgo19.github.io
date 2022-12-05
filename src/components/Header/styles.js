@@ -12,7 +12,7 @@ export const HeaderStyled = styled.header`
   z-index: 9999;
 
   @media ( max-width  : 900px) {
-    position: fixed;
+    height: 50px;
   }
 `;
 

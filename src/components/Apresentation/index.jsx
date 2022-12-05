@@ -8,7 +8,7 @@ import {
   ApresentationLogosStyled,
   ApresentationImgStyled } from './style';
 
-import subTitle from '../../assets/texts/subTitle';
+import {subTitle, description} from '../../assets/texts/subTitle';
 
 import manWorking from '../../assets/images/man-computer.svg';
 import mobileImage from '../../assets/images/mobileImage.svg';
@@ -20,7 +20,8 @@ export default function Apresentation() {
     <ApresentationContainerStyled>
       <ApresentationTextsStyled>
         <h1>{'<Hello World />'}</h1>
-        <p>{subTitle}</p>
+        <h3>{subTitle}</h3>
+        <p>{description}</p>
         <MobileImageBoxStyled>
           <MobileImageStyled src={ mobileImage } alt="mobile vector"/>
         </MobileImageBoxStyled>

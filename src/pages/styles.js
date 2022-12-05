@@ -6,7 +6,11 @@ const MainStyled = styled.main`
   padding-bottom: 5rem;
   
   @media (max-width : 900px) {
-    margin-top: 16%;
+    margin-top: 5%;
+  }
+
+  @media (max-width : 320px) {
+    margin-top: 10%;
   }
 `
 

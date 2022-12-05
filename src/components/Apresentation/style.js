@@ -12,15 +12,26 @@ export const ApresentationContainerStyled = styled.section`
 `;
 
 export const ApresentationTextsStyled = styled.article`
-  h1 {
-    color: ${({theme}) => theme.titleColor};
-    font-size: 2rem;
-    font-weight: 700;
-  }
+  display: flex;
+  flex-direction: column;
 
-  p {
-    font-family: 'Montserrat', sans-serif;
-  }
+    h1 {
+      align-self: center;
+      color: ${({theme}) => theme.titleColor};
+      font-family: 'Open Sans', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 1% 0 5% 0;
+    }
+
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: normal;
+    }
+
+    @media (max-width : 890px) {
+      margin-top: 0;
+    }
 `;
 
 export const MobileImageBoxStyled = styled.div`
@@ -45,7 +56,7 @@ export const MobileImageStyled = styled.img`
 export const ApresentationLogosStyled = styled.div`
   display: flex;
   gap: 50px;
-  margin-top: 50%;
+  margin-top: 1%;
 
     a {
       color: ${(theme) => theme.textColor};

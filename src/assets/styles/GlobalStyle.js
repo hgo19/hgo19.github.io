@@ -9,7 +9,8 @@ const GlobalStyle = createGlobalStyle`
 }
 
 body {
-  background-color: ${(theme) => theme.backgroundColor};
+  background-color: ${({theme}) => theme.backgroundColor};
+  color: ${({theme}) => theme.textColor};
   font-family: 'Montserrat', sans-serif;
   height: 100%;
   margin: 0;
@@ -19,6 +20,10 @@ body {
 
 h1 {
   font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+  color: ${({theme}) => theme.textColor};
 }
 `;
 

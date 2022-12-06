@@ -8,10 +8,10 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  backgroundColor: '#0d0d0d',
-  sectionColor: '#3a3a3a',
-  headerColor: '#193d48',
-  titleColor: '#9ed0de',
-  textColor: '#f7f7f7',
+  backgroundColor: '#121212',
+  sectionColor: '#151515',
+  headerColor: '#325560',
+  titleColor: '#afeeff',
+  textColor: '#b8b8b8',
   darkMode: 'on',
 };

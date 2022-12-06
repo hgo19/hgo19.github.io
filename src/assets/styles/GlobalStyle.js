@@ -36,11 +36,11 @@ const GlobalStyle = createGlobalStyle`
   }
 
   a:visited {
-    color: ${(theme) => theme.textColor};
+    color: ${({theme}) => theme.textColor};
   }
 
   a:active {
-    color: ${(theme) => theme.textColor};
+    color: ${({theme}) => theme.textColor};
   }
 `;
 

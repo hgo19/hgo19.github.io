@@ -33,7 +33,7 @@ export default function Skills() {
 
   return (
     <>
-      <SkillsTitleStyled>
+      <SkillsTitleStyled show={show}>
         Conhecimentos:
       </SkillsTitleStyled>
 

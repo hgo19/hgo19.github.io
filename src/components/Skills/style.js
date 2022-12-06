@@ -6,8 +6,8 @@ export const SkillsTitleStyled = styled.h3`
   margin: 1% 0 0 30%;
   position: absolute;
 
-  @media (max-width : 330px) {
-    display: none;
+  @media (max-width : 900px) {
+    display: ${({show}) => show ? 'none' : 'block'};
   }
 `;
 

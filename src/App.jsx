@@ -9,7 +9,6 @@ import PortifolioContext from './context/PortifolioContext';
 import GlobalStyle from './assets/styles/GlobalStyle';
 
 import Header from './components/Header';
-import DarkModeSwitcher from './components/DarkModeSwitch';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
@@ -21,7 +20,6 @@ const {theme} = useContext(PortifolioContext);
   return (
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <GlobalStyle />
-      <DarkModeSwitcher />
       <Header />
       <Switch>
         <Route exact path="/" component={ Home } />

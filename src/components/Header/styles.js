@@ -5,7 +5,7 @@ export const HeaderStyled = styled.header`
   background-color: ${({theme}) => theme.headerColor};
   display: flex;
   height: 70px;
-  justify-content: flex-end;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   width: 100%;
@@ -16,19 +16,20 @@ export const HeaderStyled = styled.header`
   }
 `;
 
+export const SwitcherStyled = styled.div`
+  align-self: center;
+  margin-left: 1%;
+`;
+
 export const HamburguerContainerStyled = styled.button`
   background-color: transparent;
   border: none;
   cursor: pointer;
   display: none;
-  position: absolute;
-  overflow: hidden;
-  z-index: 4;
 
   @media ( max-width  : 900px) {
     display: flex;
     align-items: center;
-    position: fixed;
   }
 `;
 

@@ -42,6 +42,10 @@ const GlobalStyle = createGlobalStyle`
   a:active {
     color: ${({theme}) => theme.textColor};
   }
+
+  button {
+    cursor: pointer;
+  }
 `;
 
 export default GlobalStyle;

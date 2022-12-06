@@ -1,10 +1,24 @@
 import styled from "styled-components";
 
-export const ButtonStyled = styled.button`
-  background-color: transparent;
-  color: ${({theme}) => theme.textColor};
+const ButtonStyled = styled.button`
+  background-color: ${({theme}) => theme.darkMode === 'on' ? '#2c6d7d' : '#2f8499'};
+  border: none;
+  border-radius: 15%;
+  color: #fff;
+  display: flex;
+  font-size: 0.8em;
+  font-weight: 200;   justify-content: center;
+  align-items: center;
+  align-content: center;
   padding: 5px;
-  position: absolute;
+
+  span {
+    text-align: center;
+  }
+
+  @media (max-width : 900px) {
+    font-size: 0.7em;
+  }
 `;
 
-export const meuPau = '';
+export default ButtonStyled;

@@ -1,7 +1,8 @@
 import React, { useContext, useState } from 'react'
+import {MdDarkMode, MdOutlineLightMode} from 'react-icons/md';
 import PortifolioContext from '../../context/PortifolioContext';
 
-import { ButtonStyled } from './styles';
+import ButtonStyled from './styles';
 
 export default function DarkModeSwitcher() {
   const [toggle, setToggle] = useState(false);
@@ -19,7 +20,7 @@ export default function DarkModeSwitcher() {
   return (
     <div>
       <ButtonStyled type="button" onClick={handleDarkMode}>
-      {toggle ? 'DarkMode ON' : 'DarkMode OFF'}
+      {toggle ? <><span>DarkMode</span> <MdDarkMode /></>: <><span>LightMode</span> <MdOutlineLightMode /></>}
       </ButtonStyled>
     </div>
   )

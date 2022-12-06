@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import DarkModeSwitcher from '../DarkModeSwitch';
 
 import { 
   HeaderStyled,
+  SwitcherStyled,
   HamburguerContainerStyled,
   HamburguerImgStyled,
   UlStyled,
@@ -19,6 +21,9 @@ export default function Header() {
 
   return (
     <HeaderStyled>
+        <SwitcherStyled>
+          <DarkModeSwitcher />
+        </SwitcherStyled>
         <HamburguerContainerStyled type="button" onClick={toggleMenu}>
           <HamburguerImgStyled src={menuHamburguer} alt="menu hamburguer" />
         </HamburguerContainerStyled>

@@ -15,3 +15,5 @@ export const darkTheme = {
   textColor: '#b8b8b8',
   darkMode: 'on',
 };
+
+export const svgDarkModeFilter = 'invert(92%) sepia(0%) saturate(5415%) hue-rotate(54deg) brightness(83%) contrast(84%)';

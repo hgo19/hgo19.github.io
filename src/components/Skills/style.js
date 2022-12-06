@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { svgDarkModeFilter } from "../../assets/styles/theme";
 
 export const SkillsContainerStyled = styled.section`
   align-content: center;
@@ -27,6 +27,7 @@ export const SkillBoxStyled = styled.div`
 
 export const SkillIconStyled = styled.img`
   width: 30px;
+  filter: ${({theme}) => theme.darkMode === 'on' ? svgDarkModeFilter : 'none'};
 
   @media ( max-width : 400px ) {
     width: 20px;

@@ -12,6 +12,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
+import Footer from './components/Footer';
 
 function App() {
 const {theme} = useContext(PortifolioContext);
@@ -25,6 +26,7 @@ const {theme} = useContext(PortifolioContext);
         <Route exact path="/contato" component={ Contact } />
         <Route exact path="/projetos" component={ Projects } />
       </Switch>
+      <Footer />
     </ThemeProvider>
   );
 }

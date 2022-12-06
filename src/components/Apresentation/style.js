@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { svgDarkModeFilter } from "../../assets/styles/theme";
 
 export const ApresentationContainerStyled = styled.section`
   display: flex;
@@ -36,6 +37,7 @@ export const ApresentationTextsStyled = styled.article`
 
 export const MobileImageBoxStyled = styled.div`
   display: none;
+  opacity: ${({theme}) => theme.darkMode === 'on' ? '0.7' : '1'};
 
   @media (max-width : 900px) {
     display: flex;
@@ -58,30 +60,10 @@ export const ApresentationLogosStyled = styled.div`
   gap: 50px;
   margin-top: 1%;
 
-    a {
-      color: ${(theme) => theme.textColor};
-      text-decoration: none;
-    }
-
-    a:hover {
-      opacity: 0.7;
-    }
-
-    a:visited {
-      color: ${(theme) => theme.textColor};
-    }
-
-    a:active {
-      color: ${(theme) => theme.textColor};
-    }
-
-    a:-webkit-any-link {
-      color: #000;
-    }
-
-    img {
-      width: 20px;
-    }
+  img {
+    filter: ${({theme}) => theme.darkMode === 'on' ? svgDarkModeFilter : 'none'};
+    width: 20px;
+  }
 
   @media (max-width : 900px) {
     justify-content: center;

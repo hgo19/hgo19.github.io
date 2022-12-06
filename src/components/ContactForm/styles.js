@@ -30,23 +30,29 @@ export const LabelStyled = styled.label`
 `;
 
 export const InputStyled = styled.input`
+  background-color: ${({theme}) => theme.sectionColor};
   border-radius: 1%;
   border: 1px solid ${({theme}) => theme.headerColor};
+  color: ${({theme}) => theme.textColor};
   height: 25px;
+  padding: 1px 0 1px 5px;
 
   :focus-visible {
-  outline: 2px auto ${({theme}) => theme.titleColor};
+  outline: 2px auto ${({theme}) => theme.headerColor};
 }
 `;
 
 export const TextareaStyled = styled.textarea`
+  background-color: ${({theme}) => theme.sectionColor};
   border: 1px solid ${({theme}) => theme.headerColor};
+  color: ${({theme}) => theme.textColor};
   height: 200px;
+  padding: 5px 0 0 5px;
   resize: none;
   width: 100%;
 
   :focus-visible {
-  outline: 2px auto ${({theme}) => theme.titleColor};
+  outline: 2px auto ${({theme}) => theme.headerColor};
 }`;
 
 export const ButtonStyled = styled.button`

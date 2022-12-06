@@ -4,6 +4,15 @@ export const ProjectsContainerStyled = styled.section`
   display: flex;
   gap: 5px;
   justify-content: center;
+
+  h3 {
+    color: ${({theme}) => theme.titleColor};
+  }
+
+  @media (max-width : 900px) {
+    align-items: center;
+    flex-direction: column;
+  }
 `;
 
 export const ProjectsCardStyled = styled.div`

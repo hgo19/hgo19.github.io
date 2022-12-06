@@ -11,6 +11,7 @@ import {
 export default function FrontEndProjects() {
   return (
     <ProjectsContainerStyled>
+      <h3>Projetos Front-End:</h3>
       {projects.map(({
         name, img, techs, repositorio, url,
       }) => (

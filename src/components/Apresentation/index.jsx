@@ -1,5 +1,4 @@
-import React, { useContext } from 'react';
-import PortifolioContext from '../../context/PortifolioContext';
+import React from 'react';
 
 import { 
   ApresentationContainerStyled,
@@ -17,17 +16,6 @@ import linkedinIcon from '../../assets/images/logos/linkedinIcon.svg';
 import githubIcon from '../../assets/images/logos/githubIcon.svg';
 
 export default function Apresentation() {
-  const {theme, setTheme} = useContext(PortifolioContext);
-
-  const changeTheme = () => {
-    if (theme === 'light') {
-      setTheme('dark');
-    } else {
-      setTheme('light');
-    }
-  };
-
-
   return (
     <ApresentationContainerStyled>
       <ApresentationTextsStyled>
@@ -51,10 +39,6 @@ export default function Apresentation() {
         </ApresentationLogosStyled>
       </ApresentationTextsStyled>
       <ApresentationImgStyled src={ manWorking } alt="Man Working Draw"/>
-
-      <button type='button' onClick={changeTheme}>
-        Tema
-      </button>
     </ApresentationContainerStyled>
   );
 }

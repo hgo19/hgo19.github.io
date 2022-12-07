@@ -1,34 +1,33 @@
 import React from 'react';
 
-import {frontEndProjects} from '../../assets/projects';
+import { backEndProjects } from '../../assets/projects';
 
 import { 
   ProjectsContainerStyled,
   ProjectsCardStyled,
-  ImgProjectStyled,
   LinkStyled } from './styles';
 
-export default function FrontEndProjects() {
+export default function BackEndProjects() {
   return (
     <ProjectsContainerStyled>
-      {frontEndProjects.map(({
-        name, img, techs, repositorio,
-      }) => (
-        <ProjectsCardStyled key={name}>
-          <ImgProjectStyled src={img} alt={name} />
+      {backEndProjects.map(({name, techs, repositorio}) => (
+        <ProjectsCardStyled key={`${name}-card`}>
           <h3>{name}</h3>
           <p>
             Tecnologias Utilizadas:
             {' '}
             {techs}
           </p>
+
           <p>
             Repositório:
             {' '}
-            <LinkStyled href={repositorio} target="_blank">Aqui</LinkStyled>
+            <LinkStyled href={repositorio} target="_blank" rel="noreferrer">
+              Aqui
+            </LinkStyled>
           </p>
         </ProjectsCardStyled>
       ))}
     </ProjectsContainerStyled>
-  );
+  )
 }

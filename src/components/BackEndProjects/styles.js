@@ -21,11 +21,6 @@ export const ProjectsCardStyled = styled.div`
   width: 300px;
 `;
 
-export const ImgProjectStyled = styled.img`
-  margin: 5%;
-  width: 90%;
-`;
-
 export const LinkStyled = styled.a`
   color: ${({theme}) => theme.textColor};
   font-weight: 700;

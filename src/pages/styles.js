@@ -21,5 +21,6 @@ export const MainStyled = styled.main`
 
 export const ProjectsTitleStyled = styled.h3`
   padding-bottom: 20px;
+  padding-top: 20px;
   text-align: center;
 `;

@@ -57,7 +57,7 @@ export const UlStyled = styled.ul`
 
   @media ( max-width  : 900px) {
     background: ${({ theme }) => theme.headerColor};
-    display: ${({ show, hide }) => show && hide ? 'block' : 'none' };
+    display: ${({ show }) => show ? 'block' : 'none' };
     height: 100%;
     margin: 0;
     overflow: hidden;

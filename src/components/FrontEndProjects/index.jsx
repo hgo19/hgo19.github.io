@@ -1,6 +1,6 @@
 import React from 'react';
 
-import projects from '../../assets/projects';
+import {frontEndProjects} from '../../assets/projects';
 
 import { 
   ProjectsContainerStyled,
@@ -11,9 +11,8 @@ import {
 export default function FrontEndProjects() {
   return (
     <ProjectsContainerStyled>
-      <h3>Projetos Front-End:</h3>
-      {projects.map(({
-        name, img, techs, repositorio, url,
+      {frontEndProjects.map(({
+        name, img, techs, repositorio,
       }) => (
         <ProjectsCardStyled key={name}>
           <ImgProjectStyled src={img} alt={name} />
@@ -27,11 +26,6 @@ export default function FrontEndProjects() {
             Repositório:
             {' '}
             <LinkStyled href={repositorio} target="_blank">Aqui</LinkStyled>
-          </p>
-          <p>
-            <LinkStyled href={url} target="_blank">
-              Visite a aplicação clicando aqui
-            </LinkStyled>
           </p>
         </ProjectsCardStyled>
       ))}

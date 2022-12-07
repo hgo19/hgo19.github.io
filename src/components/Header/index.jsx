@@ -12,11 +12,9 @@ import menuHamburguer from '../../assets/images/menuIcon.svg';
 
 export default function Header() {
   const [show, setMenu] = useState(false);
-  const [hide, setHide] = useState(false);
 
   const toggleMenu = () => {
     setMenu(!show);
-    setHide(!hide);
   };
 
   return (
@@ -27,7 +25,7 @@ export default function Header() {
         <HamburguerContainerStyled type="button" onClick={toggleMenu}>
           <HamburguerImgStyled src={menuHamburguer} alt="menu hamburguer" />
         </HamburguerContainerStyled>
-        <UlStyled show={show} hide={hide}>
+        <UlStyled show={show}>
           <NavLinksStyled to="/" onClick={toggleMenu}>
             <li>Inicio</li>
           </NavLinksStyled>

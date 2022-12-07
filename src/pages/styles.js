@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-const MainStyled = styled.main`
+export const MainStyled = styled.main`
   margin-top: 8%;
   padding-bottom: 5rem;
   
@@ -17,6 +17,9 @@ const MainStyled = styled.main`
     margin-top: 20%;
   }
 
-`
+`;
 
-export default MainStyled;
+export const ProjectsTitleStyled = styled.h3`
+  padding-bottom: 20px;
+  text-align: center;
+`;

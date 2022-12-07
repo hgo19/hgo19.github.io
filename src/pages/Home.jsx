@@ -1,6 +1,6 @@
 import React from 'react';
 
-import MainStyled from './styles';
+import {MainStyled} from './styles';
 
 import Apresentation from '../components/Apresentation';
 import Skills from '../components/Skills';

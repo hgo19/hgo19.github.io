@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.ce14f629.js",
+    "main.js": "/static/js/main.962d9ea4.js",
     "static/media/shoppingCart.jpeg": "/static/media/shoppingCart.b051bcbab4fd79ec1f2f.jpeg",
     "static/media/trybeTunes.jpeg": "/static/media/trybeTunes.18036b9573d24cc9129e.jpeg",
     "static/media/trybeWallet.jpeg": "/static/media/trybeWallet.ab5e78642adb9cecc3f6.jpeg",
@@ -17,9 +17,9 @@
     "static/media/cssIcon.svg": "/static/media/cssIcon.f2163226131819de387697ce0ca3390e.svg",
     "static/media/htmlIcon.svg": "/static/media/htmlIcon.bb2ee8832713c4cee3a5335c149e5b14.svg",
     "static/media/menuIcon.svg": "/static/media/menuIcon.cc5ce903a98dddc1e80bc48498a15dde.svg",
-    "main.ce14f629.js.map": "/static/js/main.ce14f629.js.map"
+    "main.962d9ea4.js.map": "/static/js/main.962d9ea4.js.map"
   },
   "entrypoints": [
-    "static/js/main.ce14f629.js"
+    "static/js/main.962d9ea4.js"
   ]
 }

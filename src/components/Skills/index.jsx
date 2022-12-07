@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 import { 
-  SkillsTitleStyled,
   SkillsContainerStyled,
   SkillBoxStyled,
   SkillIconStyled,
@@ -32,12 +31,7 @@ export default function Skills() {
 
 
   return (
-    <>
-      <SkillsTitleStyled show={show}>
-        Conhecimentos:
-      </SkillsTitleStyled>
-
-      <SkillsContainerStyled show={show}>
+    <SkillsContainerStyled show={show}>
       <SkillBoxStyled>
         <SkillIconStyled src={ jsIcon } alt="JavaScript Skill" />
         <p>JavaScript</p>
@@ -75,6 +69,5 @@ export default function Skills() {
        {showMoreText(show)}
        </ShowMoreStyled>
     </SkillsContainerStyled>
-    </>
   );
 }

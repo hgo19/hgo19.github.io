@@ -1,15 +1,16 @@
 import styled from "styled-components";
 import { svgDarkModeFilter } from "../../assets/styles/theme";
 
-export const SkillsTitleStyled = styled.h3`
-  color: ${({theme}) => theme.textColor};
-  margin: 1% 0 0 30%;
-  position: absolute;
+// export const SkillsTitleStyled = styled.h3`
+//   color: ${({theme}) => theme.textColor};
+//   margin: 1% 0 0 30%;
+//   position: absolute;
 
-  @media (max-width : 900px) {
-    display: ${({show}) => show ? 'none' : 'block'};
-  }
-`;
+//   @media (max-width : 900px) {
+//     display: none;
+//     margin-left: 0;
+//   }
+// `;
 
 export const SkillsContainerStyled = styled.section`
   align-content: center;
@@ -20,7 +21,7 @@ export const SkillsContainerStyled = styled.section`
   gap: 10px;
   height: 150px;
   justify-content: center;
-  margin-bottom: 5rem;
+  margin-bottom: 1.5rem;
 
   @media (  max-width : 900px ) {
     padding: 20px;

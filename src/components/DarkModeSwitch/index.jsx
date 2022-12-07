@@ -20,7 +20,7 @@ export default function DarkModeSwitcher() {
   return (
     <div>
       <ButtonStyled type="button" onClick={handleDarkMode}>
-      {toggle ? <><span>DarkMode</span> <MdDarkMode /></>: <><span>LightMode</span> <MdOutlineLightMode /></>}
+      {toggle ? <><span>LightMode</span> <MdOutlineLightMode /></>: <><span>DarkMode</span> <MdDarkMode /></>}
       </ButtonStyled>
     </div>
   )

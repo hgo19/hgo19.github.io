@@ -12,6 +12,7 @@ export default function About() {
     <AboutContainerStyled className="about-container">
       <AboutTitleStyled>Sobre Mim</AboutTitleStyled>
       <AboutTextStyled>{sobreMimPOne}</AboutTextStyled>
+      <br />
       <AboutTextStyled>{sobreMimPTwo}</AboutTextStyled>
     </AboutContainerStyled>
   );

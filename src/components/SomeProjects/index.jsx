@@ -1,5 +1,5 @@
 import React from 'react';
-import { SectionStyled, SectionTitleStyled } from './style';
+import { SectionStyled, SectionTitleStyled, CardStyled } from './style';
 
 import { PrincipalProjects } from '../../assets/projects';
 
@@ -8,7 +8,7 @@ export default function SomeProjects() {
     <SectionStyled>
       <SectionTitleStyled>Principais Projetos</SectionTitleStyled>
       {PrincipalProjects.map(({name, techs, repositorio}) => (
-        <div key={`${name}-card`}>
+        <CardStyled key={`${name}-card`}>
           <h3>{name}</h3>
           <p>
             Tecnologias Utilizadas:
@@ -20,7 +20,7 @@ export default function SomeProjects() {
             {' '}
             <a href={repositorio} target="_blank" rel="noreferrer">Aqui</a>
           </p>
-        </div>
+        </CardStyled>
       ))}
     </SectionStyled>
   )

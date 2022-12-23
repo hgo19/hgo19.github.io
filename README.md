@@ -14,7 +14,7 @@ Para rodar a aplicação localmente siga os seguintes passos:
 
 1. Faça o clone do projeto para a sua máquinha:
 ```bash
-git clone SSHREPOSITÓRIO
+git clone git@github.com:hgo19/hgo19.github.io.git
 ```
 
 2. Instale as dependências, utilizadas no projeto, localmente:

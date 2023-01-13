@@ -1,5 +1,5 @@
 ## Sobre a aplicação:
-Esse é o repositório é uma aplicação que busca ser utilizada como portifólio.
+Esse é o repositório é uma aplicação que busca ser utilizada como portfólio.
 
 ## Tecnologias Utilizadas:
 Foi utilizado as seguintes tecnologias para a construção da aplicação:

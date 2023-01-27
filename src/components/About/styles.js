@@ -17,7 +17,7 @@ export const AboutTextStyled = styled.p`
   height: auto;
   margin-top: 1%;
   text-align: justify;
-  width: 70%;
+  width: 50%;
 
   @media ( max-width : 900px ) {
     width: 80%;

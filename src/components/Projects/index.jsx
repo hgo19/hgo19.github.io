@@ -42,13 +42,13 @@ export default function Projects() {
         <h3>Back-end: </h3>
         <ProjectsCardsContainerStyled>
           {backEndProjects.map(({ name, techs, repositorio }) => (
-            <div key={name}>
+            <ProjectsCardStyled key={name}>
               <h3>{name}</h3>
               <p>Tecnologias Utilizadas: </p>
               {techs}
               <p>Repositório:</p>
-              <a href={repositorio} target="_blanck">Clique Aqui</a>
-            </div>
+              <LinkStyled href={repositorio} target="_blanck">Clique Aqui</LinkStyled>
+            </ProjectsCardStyled>
           ))}
         </ProjectsCardsContainerStyled>
       </ProjectsContainerStyled>

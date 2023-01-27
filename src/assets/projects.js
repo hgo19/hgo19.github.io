@@ -27,7 +27,12 @@ export const frontEndProjects = [
 export const backEndProjects = [
   {
     name: 'StoreManager',
-    techs: 'NodeJS, MySQL e Docker',
+    techs: 'Node.js, Express.js, MySQL e Docker',
     repositorio: 'https://github.com/hgo19/store-manager',
   },
+  {
+    name: 'Trybesmith',
+    techs: 'Node.js, Express.js, MySQL, Docker e Typescript',
+    repositorio: 'https://github.com/hgo19/Trybesmith',
+  }
 ];

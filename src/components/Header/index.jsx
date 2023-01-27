@@ -27,13 +27,13 @@ export default function Header() {
         <HamburguerImgStyled src={menuHamburguer} alt="menu hamburguer" />
       </HamburguerContainerStyled>
       <UlStyled show={show}>
-        <NavLinksStyled to="/" onClick={toggleMenu}>
+        <NavLinksStyled href="/" onClick={toggleMenu}>
           <li>Inicio</li>
         </NavLinksStyled>
-        <NavLinksStyled to="/projetos" onClick={toggleMenu}>
+        <NavLinksStyled href="#projects" onClick={toggleMenu}>
           <li>Projetos</li>
         </NavLinksStyled>
-        <NavLinksStyled to="/contato" onClick={toggleMenu}>
+        <NavLinksStyled href="#contact" onClick={toggleMenu}>
           <li>Contato</li>
         </NavLinksStyled>
       </UlStyled>

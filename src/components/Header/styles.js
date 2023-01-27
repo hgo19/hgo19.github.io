@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
 export const HeaderStyled = styled.header`
   background-color: ${({ theme }) => theme.headerColor};
@@ -75,7 +74,7 @@ export const UlStyled = styled.ul`
   }
 `;
 
-export const NavLinksStyled = styled(Link)`
+export const NavLinksStyled = styled.a`
   color: #fff;
   font-weight: 200;
   text-decoration: none;

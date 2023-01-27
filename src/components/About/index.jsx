@@ -10,7 +10,7 @@ import { sobreMimPOne, sobreMimPTwo } from '../../assets/texts/aboutMe';
 
 export default function About() {
   return (
-    <AboutContainerStyled className="about-container">
+    <AboutContainerStyled id="about-me">
       <AboutTitleStyled>Sobre Mim</AboutTitleStyled>
       <AboutTextStyled>{sobreMimPOne}</AboutTextStyled>
       <br />

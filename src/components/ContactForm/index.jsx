@@ -28,7 +28,7 @@ export default function ContactForm() {
 
   return (
     <FormContainerStyled>
-      <div>
+      <div id="contact">
         <TitleStyled>Entre em contato:</TitleStyled>
         <FormStyled
           onSubmit={sendEmail}

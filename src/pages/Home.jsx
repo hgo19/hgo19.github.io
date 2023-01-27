@@ -6,6 +6,7 @@ import Apresentation from '../components/Apresentation';
 import About from '../components/About';
 import Projects from '../components/Projects';
 import ContactForm from '../components/ContactForm';
+import Skills from '../components/Skills';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Apresentation />
       <About />
       <Projects />
+      <Skills />
       <ContactForm />
     </MainStyled>
   );

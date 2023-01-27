@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const ButtonStyled = styled.button`
-  background-color: ${({theme}) => theme.darkMode === 'on' ? '#2c6d7d' : '#2f8499'};
+  background-color: ${({ theme }) => (theme.darkMode === 'on' ? '#2c6d7d' : '#2f8499')};
   border: none;
   border-radius: 15%;
   color: #fff;

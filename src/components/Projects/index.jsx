@@ -1,0 +1,61 @@
+import React from 'react';
+
+import { frontEndProjects, backEndProjects } from '../../assets/projects';
+
+import {
+  SectionContainerStyled,
+  ProjectAndSkillsContainerStyled,
+  ProjectsContainerStyled,
+  ProjectsCardsContainerStyled,
+  ProjectsCardStyled,
+  ImgProjectStyled,
+  LinkStyled,
+} from './styles';
+
+export default function Projects() {
+  return (
+    <SectionContainerStyled>
+      <ProjectAndSkillsContainerStyled>
+        <ProjectsContainerStyled>
+          <h2>Projetos: </h2>
+          <h3>Front-end: </h3>
+          <ProjectsCardsContainerStyled>
+            {frontEndProjects.map(({
+              name, img, techs, repositorio,
+            }) => (
+              <ProjectsCardStyled key={name}>
+                <ImgProjectStyled src={img} alt={name} />
+                <h3>{name}</h3>
+                <p>
+                  Tecnologias Utilizadas:
+                  {' '}
+                  {techs}
+                </p>
+                <p>
+                  Repositório:
+                  {' '}
+                  <LinkStyled href={repositorio} target="_blank">Clique Aqui</LinkStyled>
+                </p>
+              </ProjectsCardStyled>
+            ))}
+
+          </ProjectsCardsContainerStyled>
+
+          <h3>Back-end: </h3>
+          <ProjectsCardsContainerStyled>
+            {backEndProjects.map(({ name, techs, repositorio }) => (
+              <div key={name}>
+                <h3>{name}</h3>
+                <p>Tecnologias Utilizadas: </p>
+                {techs}
+                <p>Repositório:</p>
+                <a href={repositorio} target="_blanck">Clique Aqui</a>
+              </div>
+            ))}
+          </ProjectsCardsContainerStyled>
+        </ProjectsContainerStyled>
+
+      </ProjectAndSkillsContainerStyled>
+    </SectionContainerStyled>
+  );
+}

@@ -1,15 +1,14 @@
-import React, { useContext, useEffect, useState } from 'react'
-import {MdDarkMode, MdOutlineLightMode} from 'react-icons/md';
+import React, { useContext, useEffect, useState } from 'react';
+import { MdDarkMode, MdOutlineLightMode } from 'react-icons/md';
 import PortifolioContext from '../../context/PortifolioContext';
 
 import ButtonStyled from './styles';
 
 export default function DarkModeSwitcher() {
   const [toggle, setToggle] = useState(false);
-  const {theme, setTheme} = useContext(PortifolioContext);
+  const { theme, setTheme } = useContext(PortifolioContext);
 
   const LOCAL_STORAGE_KEY = 'hgo19Theme';
-
 
   useEffect(() => {
     const getThemePreference = () => {
@@ -17,7 +16,7 @@ export default function DarkModeSwitcher() {
       if (themePreference) setTheme(themePreference);
     };
     getThemePreference();
-  }, [])
+  }, []);
 
   const handleDarkMode = () => {
     if (theme === 'light') {
@@ -33,8 +32,20 @@ export default function DarkModeSwitcher() {
   return (
     <div>
       <ButtonStyled type="button" onClick={handleDarkMode}>
-      {toggle ? <><span>LightMode</span> <MdOutlineLightMode /></>: <><span>DarkMode</span> <MdDarkMode /></>}
+        {toggle ? (
+          <>
+            <span>LightMode</span>
+            {' '}
+            <MdOutlineLightMode />
+          </>
+        ) : (
+          <>
+            <span>DarkMode</span>
+            {' '}
+            <MdDarkMode />
+          </>
+        )}
       </ButtonStyled>
     </div>
-  )
+  );
 }

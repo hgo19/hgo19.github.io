@@ -31,16 +31,3 @@ export const backEndProjects = [
     repositorio: 'https://github.com/hgo19/store-manager',
   },
 ];
-
-export const PrincipalProjects = [
-  {
-    name: 'TrybeWallet',
-    techs: 'HTML, CSS, JavaScript, React e Redux',
-    repositorio: 'https://github.com/hgo19/trybewallet',
-  },
-  {
-    name: 'StoreManager',
-    techs: 'NodeJS, MySQL e Docker',
-    repositorio: 'https://github.com/hgo19/store-manager',
-  }
-];

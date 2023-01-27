@@ -1,8 +1,8 @@
-import styled from "styled-components";
-import { Link } from "react-router-dom";
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const HeaderStyled = styled.header`
-  background-color: ${({theme}) => theme.headerColor};
+  background-color: ${({ theme }) => theme.headerColor};
   display: flex;
   height: 70px;
   justify-content: space-between;
@@ -57,7 +57,7 @@ export const UlStyled = styled.ul`
 
   @media ( max-width  : 900px) {
     background: ${({ theme }) => theme.headerColor};
-    display: ${({ show }) => show ? 'block' : 'none' };
+    display: ${({ show }) => (show ? 'block' : 'none')};
     height: 100%;
     margin: 0;
     overflow: hidden;

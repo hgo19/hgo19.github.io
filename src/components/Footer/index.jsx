@@ -7,5 +7,5 @@ export default function Footer() {
     <FooterStyled>
       <FooterTextStyled>© 2022 - Todos os direitos reservados.</FooterTextStyled>
     </FooterStyled>
-  )
+  );
 }

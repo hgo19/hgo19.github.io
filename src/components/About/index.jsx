@@ -1,9 +1,10 @@
 import React from 'react';
 
-import { 
+import {
   AboutContainerStyled,
   AboutTitleStyled,
-  AboutTextStyled } from './styles';
+  AboutTextStyled,
+} from './styles';
 
 import { sobreMimPOne, sobreMimPTwo } from '../../assets/texts/aboutMe';
 

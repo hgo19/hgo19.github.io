@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { svgDarkModeFilter } from "../../assets/styles/theme";
+import styled from 'styled-components';
+import { svgDarkModeFilter } from '../../assets/styles/theme';
 
 export const ApresentationContainerStyled = styled.section`
   display: flex;
@@ -18,7 +18,7 @@ export const ApresentationTextsStyled = styled.article`
 
     h1 {
       align-self: center;
-      color: ${({theme}) => theme.titleColor};
+      color: ${({ theme }) => theme.titleColor};
       font-family: 'Open Sans', sans-serif;
       font-size: 2rem;
       font-weight: 700;
@@ -37,7 +37,7 @@ export const ApresentationTextsStyled = styled.article`
 
 export const MobileImageBoxStyled = styled.div`
   display: none;
-  opacity: ${({theme}) => theme.darkMode === 'on' ? '0.7' : '1'};
+  opacity: ${({ theme }) => (theme.darkMode === 'on' ? '0.7' : '1')};
 
   @media (max-width : 900px) {
     display: flex;
@@ -61,7 +61,7 @@ export const ApresentationLogosStyled = styled.div`
   margin-top: 1%;
 
   img {
-    filter: ${({theme}) => theme.darkMode === 'on' ? svgDarkModeFilter : 'none'};
+    filter: ${({ theme }) => (theme.darkMode === 'on' ? svgDarkModeFilter : 'none')};
     width: 20px;
   }
 
@@ -69,11 +69,11 @@ export const ApresentationLogosStyled = styled.div`
     justify-content: center;
     margin-top: 20%;
   }
-`
+`;
 
 export const ApresentationImgStyled = styled.img`
   width: 950px;
-  opacity: ${({theme}) => theme.darkMode === 'on' ? '0.7' : '1'};
+  opacity: ${({ theme }) => (theme.darkMode === 'on' ? '0.7' : '1')};
 
   @media ( max-width : 1150px ) {
     width: 700px;

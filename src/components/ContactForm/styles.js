@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const FormContainerStyled = styled.div`
   display: flex;
@@ -6,7 +6,7 @@ export const FormContainerStyled = styled.div`
 `;
 
 export const TitleStyled = styled.h1`
-  color: ${({theme}) => theme.titleColor};
+  color: ${({ theme }) => theme.titleColor};
 `;
 
 export const FormStyled = styled.form`
@@ -30,33 +30,33 @@ export const LabelStyled = styled.label`
 `;
 
 export const InputStyled = styled.input`
-  background-color: ${({theme}) => theme.sectionColor};
+  background-color: ${({ theme }) => theme.sectionColor};
   border-radius: 1%;
-  border: 1px solid ${({theme}) => theme.headerColor};
-  color: ${({theme}) => theme.textColor};
+  border: 1px solid ${({ theme }) => theme.headerColor};
+  color: ${({ theme }) => theme.textColor};
   height: 25px;
   padding: 1px 0 1px 5px;
 
   :focus-visible {
-  outline: 2px auto ${({theme}) => theme.headerColor};
+  outline: 2px auto ${({ theme }) => theme.headerColor};
 }
 `;
 
 export const TextareaStyled = styled.textarea`
-  background-color: ${({theme}) => theme.sectionColor};
-  border: 1px solid ${({theme}) => theme.headerColor};
-  color: ${({theme}) => theme.textColor};
+  background-color: ${({ theme }) => theme.sectionColor};
+  border: 1px solid ${({ theme }) => theme.headerColor};
+  color: ${({ theme }) => theme.textColor};
   height: 200px;
   padding: 5px 0 0 5px;
   resize: none;
   width: 100%;
 
   :focus-visible {
-  outline: 2px auto ${({theme}) => theme.headerColor};
+  outline: 2px auto ${({ theme }) => theme.headerColor};
 }`;
 
 export const ButtonStyled = styled.button`
-  background-color: ${({theme}) => theme.headerColor};
+  background-color: ${({ theme }) => theme.headerColor};
   border: none;
   color: white;
   cursor: pointer;

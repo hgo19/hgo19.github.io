@@ -1,14 +1,15 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 
-import { 
+import {
   FormContainerStyled,
   TitleStyled,
   FormStyled,
   LabelStyled,
   InputStyled,
   TextareaStyled,
-  ButtonStyled } from './styles';
+  ButtonStyled,
+} from './styles';
 
 export default function ContactForm() {
   const sendEmail = (e) => {

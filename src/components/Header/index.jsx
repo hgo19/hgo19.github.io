@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import DarkModeSwitcher from '../DarkModeSwitch';
 
-import { 
+import {
   HeaderStyled,
   SwitcherStyled,
   HamburguerContainerStyled,
   HamburguerImgStyled,
   UlStyled,
-  NavLinksStyled } from './styles';
+  NavLinksStyled,
+} from './styles';
 import menuHamburguer from '../../assets/images/menuIcon.svg';
 
 export default function Header() {
@@ -19,23 +20,23 @@ export default function Header() {
 
   return (
     <HeaderStyled>
-        <SwitcherStyled>
-          <DarkModeSwitcher />
-        </SwitcherStyled>
-        <HamburguerContainerStyled type="button" onClick={toggleMenu}>
-          <HamburguerImgStyled src={menuHamburguer} alt="menu hamburguer" />
-        </HamburguerContainerStyled>
-        <UlStyled show={show}>
-          <NavLinksStyled to="/" onClick={toggleMenu}>
-            <li>Inicio</li>
-          </NavLinksStyled>
-          <NavLinksStyled to="/projetos" onClick={toggleMenu}>
-            <li>Projetos</li>
-          </NavLinksStyled>
-          <NavLinksStyled to="/contato" onClick={toggleMenu}>
-            <li>Contato</li>
-          </NavLinksStyled>
-        </UlStyled>
+      <SwitcherStyled>
+        <DarkModeSwitcher />
+      </SwitcherStyled>
+      <HamburguerContainerStyled type="button" onClick={toggleMenu}>
+        <HamburguerImgStyled src={menuHamburguer} alt="menu hamburguer" />
+      </HamburguerContainerStyled>
+      <UlStyled show={show}>
+        <NavLinksStyled to="/" onClick={toggleMenu}>
+          <li>Inicio</li>
+        </NavLinksStyled>
+        <NavLinksStyled to="/projetos" onClick={toggleMenu}>
+          <li>Projetos</li>
+        </NavLinksStyled>
+        <NavLinksStyled to="/contato" onClick={toggleMenu}>
+          <li>Contato</li>
+        </NavLinksStyled>
+      </UlStyled>
     </HeaderStyled>
   );
 }
